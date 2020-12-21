@@ -183,18 +183,3 @@ heartBoost.pred.valid <- predict(heartboost,valid.df,type = "class")
 confusionMatrix(as.factor(heartBoost.pred.valid$class), as.factor(valid.df$HasDisease))
 
 # Accuracy in prediction is 78.6 % using Random forest trees Model.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
